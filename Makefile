@@ -6,4 +6,4 @@ test:
 	poetry run pytest
 
 lint:
-	poetry run flake8 fizzbuzz tests
+	poetry run flake8 fizz_buzz tests
