@@ -17,7 +17,7 @@ def parse_args():
     parser.parse_args()
 
 
-def check_number():
+def make_iter():
     try:
         number = prompt.integer("Number: ")
         result = convert_number(number)
@@ -30,7 +30,7 @@ def main():
     parse_args()
     print("Welcome to Fizz Buzz!\nSubmit a number and get an answer!")
     while True:
-        check_number()
+        make_iter()
 
 
 if __name__ == "__main__":
