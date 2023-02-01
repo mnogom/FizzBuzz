@@ -1,5 +1,6 @@
 ## FizzBuzz!
-
+[![Maintainability](https://api.codeclimate.com/v1/badges/034c1658d14832cc1033/maintainability)](https://codeclimate.com/github/mnogom/FizzBuzz/maintainability)
+[![python-ci](https://github.com/mnogom/FizzBuzz/actions/workflows/python-ci.yml/badge.svg)](https://github.com/mnogom/FizzBuzz/actions/workflows/python-ci.yml)
 
 ---
 ### Usage:
