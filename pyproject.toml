@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "fizz_buzz"
+version = "0.1.0"
+description = ""
+authors = ["Konstantin Freidlin <freidlinks@ya.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+prompt = "^0.4.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.1"
+flake8 = "^6.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+fizz_buzz = "fizz_buzz.script.fizz_buzz:main"
