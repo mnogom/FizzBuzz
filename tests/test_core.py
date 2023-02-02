@@ -1,4 +1,4 @@
-"""Tests."""
+"""Unit-tests for core."""
 
 from fizz_buzz.core import convert_number
 

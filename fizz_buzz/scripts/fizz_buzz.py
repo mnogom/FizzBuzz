@@ -1,4 +1,6 @@
-"""Script FizzBuzz"""
+#!/usr/bin/env python3
+
+"""Entry point."""
 
 import sys
 import prompt
@@ -17,7 +19,9 @@ def parse_args():
     parser.parse_args()
 
 
-def make_iter():
+def make_iter() -> None:
+    """Iteration to read and convert number."""
+
     try:
         number = prompt.integer("Number: ")
         result = convert_number(number)
@@ -26,7 +30,9 @@ def make_iter():
         sys.exit(0)
 
 
-def main():
+def main() -> None:
+    """Main function"""
+
     parse_args()
     print("Welcome to Fizz Buzz!\nSubmit a number and get an answer!")
     while True:
